@@ -1,0 +1,16 @@
+.card > .img-container button {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: purple;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
+.card {
+   padding: 10px 10px;
+   margin: 10px; 
+}
