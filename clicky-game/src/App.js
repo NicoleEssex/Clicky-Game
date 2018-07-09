@@ -51,8 +51,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        {this.state.score}
-        <Title>Pick a Flower</Title>
+        <h1>Score: {this.state.score}</h1>
+        <Title>Pick a Face</Title>
         {this.state.images.map(image => (
           <FriendCard
             shuffleImage={this.setImageState}
